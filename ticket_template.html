@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>{{movie_title}} - Ticket</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .ticket { border: 2px dashed #1a2238; padding: 2rem; margin: 2rem auto; width: 400px; background: #fdfdfd; }
+        .ticket h2 { text-align: center; }
+    </style>
+</head>
+<body style="margin:0; padding:0; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%); min-height:100vh; font-family: 'Segoe UI', Arial, sans-serif;">
+    <div class="ticket" style="max-width:340px; margin:2em auto; border:2px dashed #1a2238; border-radius:14px; box-shadow:0 2px 12px rgba(30,34,56,0.08); background:#fff; overflow:hidden;">
+        <div style="background:#1a2238; color:#fff; padding:0.7em 0; text-align:center; font-size:1.05em; font-weight:600; letter-spacing:0.5px;">
+            Movie Ticket Booking System
+        </div>
+        <div style="padding:1.1em 1.1em 0.7em 1.1em;">
+            <div style="text-align:center; margin: 1em 0 0.7em 0;">
+                <div style="font-size:0.98em; font-weight:600; color:#1a2238; margin-bottom:0.3em; letter-spacing:0.3px;">E-Ticket / Booking Confirmation</div>
+                <div style="background:#f3f6fa; display:inline-block; padding:0.6em; border-radius:9px; box-shadow:0 1px 4px rgba(30,34,56,0.05);">
+                    <img src="{{qr_url}}" alt="Ticket QR Code" style="width:120px;height:120px; display:block; margin:0 auto;" />
+                </div>
+                <div style="font-size:0.85em; color:#888; margin-top:0.3em;">Scan for complete ticket details</div>
+            </div>
+            <div style="text-align:center; font-size: 0.93em; color:#1a2238; margin-top:1.2em; font-weight:500;">
+                Thank you for booking with Movie Ticket Booking System!
+            </div>
+            <div style="text-align:center; margin-top: 1em; font-size: 0.85em; color: #555; border-top:1px solid #e0e7ef; padding-top:0.7em;">
+                © 2025 Movie Ticket Booking System
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
